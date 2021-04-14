@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Oxygen-Icons.org-Oxygen-Actions-rating.ico" type="image/x-icon">
+    <title>D. a palavra</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Descubra a PALAVRA...</h1>
+    </header>
+    <section>
+        <div id="algo">
+         <p id="c">Chances restantes... </p>
+         <p>Feche os olhos enquanto alguém escreva a palavra secreta... <input type="password" id="psec"></p> 
+
+         <p>Agora tente descobrir a palavra digitada: <input type="text" id="tentativa"> <input type="button" value="Tentar" onclick="Tentar()"></p>
+
+        </div>
+        <div id="res">
+            Aguarde...
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Rick</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
