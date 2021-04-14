@@ -1,0 +1,35 @@
+body
+{
+    background-image: url("file:///C:/Users/Casa/Pictures/back.png") ;
+    font: normal 20pt Arial;
+}
+header
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+section
+{
+    background-color: rgb(140, 93, 202);
+    border-radius: 10px;
+    padding: 30px;
+    width: 800px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.63) 5px 5px 10px;
+
+}
+
+input
+{
+    border-color: rgb(211, 219, 91);
+    border-radius: 10px;
+    height: 20px;
+    background-color: rgb(221, 206, 228);
+}
+footer
+{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
