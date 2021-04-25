@@ -27,6 +27,11 @@ input
     height: 20px;
     background-color: rgb(221, 206, 228);
 }
+
+input[type = "button"]
+{
+    font weight: bolder;
+}
 footer
 {
     color: white;
